@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FA111010"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        style="@style/Style1"
+        android:layout_width="217dp"
+        android:layout_height="265dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.215"
+        app:srcCompat="@drawable/dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/Style2"
+        android:layout_width="72dp"
+        android:layout_height="23dp"
+        android:text="Stud. No:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.159"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <TextView
+        android:id="@+id/textView6"
+        style="@style/Style2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stud. Name:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.193" />
+
+    <TextView
+        android:id="@+id/textView7"
+        style="@style/Style2"
+        android:layout_width="69dp"
+        android:layout_height="19dp"
+        android:text="Section:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.304" />
+
+    <TextView
+        android:id="@+id/textView8"
+        style="@style/Style3"
+        android:layout_width="173dp"
+        android:layout_height="25dp"
+        android:text="2015081437"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.599" />
+
+    <TextView
+        android:id="@+id/textView9"
+        style="@style/Style3"
+        android:layout_width="216dp"
+        android:layout_height="32dp"
+        android:text="Norbert Russel Q. Omabtang"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.195" />
+
+    <TextView
+        android:id="@+id/textView10"
+        style="@style/Style3"
+        android:layout_width="172dp"
+        android:layout_height="30dp"
+        android:text="4ITB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.682"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.215" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
